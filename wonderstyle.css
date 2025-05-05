@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+}
+.navdiv{
+    background-color: #9BB2AF;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+ .logo{
+    margin: 20px;
+}
+.navdiv ul{
+    list-style: none;
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display:flex;
+    flex-direction: row;
+}
+ .navdiv li{
+    margin: 20px;
+    align-items: right
+}
+.navdiv a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navdiv a:hover{
+    color: white;
+}
+
+header{
+    position:relative;
+    top:0;
+    display: flex;
+    align-items: left;
+    width: 100%;
+}
+
+.text{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.textbody{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#title{
+    font-weight: bold;
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: black;
+    font-size: 30px;
+    margin-right: 10px;
+}
+#subtext {
+    margin-top: 0px;
+    color: gray;
+    font-size: 20px;
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#subtext a{
+    text-decoration: none;
+    color: black;
+}
+
+#subtext a:hover{
+    color: #9BB2AF;
+}
+
+.content ul{
+    list-style: none;
+    font-family: "museo-sans-rounded", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    display:flex;
+    flex-direction: row;
+    margin-left: 460px;
+    }
+
+    .content ul img{
+        margin-left: 450px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content{
+    background-color: #9BB2AF;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    position:fixed;
+    }
+
+    .content a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    align-items: center;
+    }
+
+    .content a:hover{
+    color: white;
+    }
+
+    .content li{
+    margin: 20px;
+    display: flex;
+    align-content: center;
+    }

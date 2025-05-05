@@ -1,0 +1,362 @@
+	
+	body{
+		margin: 0px;
+	}
+	.navdiv{
+		background-color: #9BB2AF;
+		margin: 0px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+	 }
+	 .logo{
+		margin: 20px;
+	}
+	.navdiv ul{
+		list-style: none;
+		font-family: "museo-sans-rounded", sans-serif;
+		font-weight: 300;
+		font-style: normal;
+		display:flex;
+		flex-direction: row;
+	}
+	 .navdiv li{
+		margin: 20px;
+		align-items: right
+	}
+	.navdiv a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.navdiv a:hover{
+		color: white;
+	}
+	
+	header{
+		position:relative;
+		top:0;
+		display: flex;
+		align-items: left;
+		width: 100%;
+	}
+
+		image{
+			width: 100%;
+			display: flex;
+			align-items:baseline
+		}
+
+		.intro{
+			width: 100%;
+			margin-left: 100px;
+			margin-top: 30px;
+			display: flex;
+			align-items: center;
+		}
+
+		#bio{
+			font-size: 20px;
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			display: flex;
+			justify-content: left;
+			text-align:justify;
+			text-justify:inter-word;
+		}
+
+		#white{
+			margin-right: 200px;
+		}
+
+		.work{
+			font-weight: bold;
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			display: flex;
+			justify-items:end;
+			bottom: 20px;
+			margin-left: 100px;
+		}
+
+		#title{
+			font-weight: bold;
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			color: black;
+			font-size: 30px;
+			margin-right: 10px;
+		}
+		#subtext{
+			margin-top: 40px;
+			color: gray;
+			font-size: 20px;
+		}
+
+		.projects{
+			width:max-content;
+			position: relative;
+			margin-bottom: 30px;
+			display: flex;
+			align-items:end;
+			margin: 100px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+		}
+
+		.introtogd{
+			position: relative;
+ 			max-width: 300px;
+			margin-right: 70px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		.introtogdtext{
+			color: black;
+			width: 100%;
+			opacity:0;
+			font-size: 20px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.introtogd:hover .introtogdimage{
+			opacity: 50%;
+			color: black;
+		}
+
+		.introtogd:hover .introtogdtext{
+			opacity: 100%;
+			z-index: 10;
+		}
+
+		a.introtogdtext{
+			font-size: 20px;
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+			font-weight: bold;
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: italic;
+		}
+		.introtogdimage:hover{
+			opacity: 30%;
+		}
+		.introtogdimage{
+			position: relative;
+		}
+
+		.sloped{
+			position: relative;
+ 			max-width: 300px;
+			margin-right: 70px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		.slopedtext{
+			color: black;
+			width: 100%;
+			opacity:0;
+			font-size: 20px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.sloped:hover .slopedimage{
+			opacity: 50%;
+			color: black;
+		}
+
+		.sloped:hover .slopedtext{
+			opacity: 100%;
+			z-index: 10;
+		}
+
+		a.slopedtext{
+			font-size: 20px;
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+			font-weight: bold;
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: italic;
+		}
+		.slopedimage:hover{
+			opacity: 30%;
+		}
+		.slopedimage{
+			position: relative;
+		}
+
+
+		.CU{
+			position: relative;
+ 			max-width: 300px;
+			margin-right: 70px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 100%;
+		}
+		.CUtext{
+			color: black;
+			width: 100%;
+			opacity:0;
+			font-size: 20px;
+			text-align: center;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.CU:hover .CUimage{
+			opacity: 50%;
+			color: black;
+		}
+
+		.CU:hover .CUtext{
+			opacity: 100%;
+			z-index: 10;
+		}
+
+		a.CUtext{
+			font-size: 20px;
+			text-decoration: none;
+			color: rgb(0, 0, 0);
+			font-weight: bold;
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: italic;
+		}
+		.CUimage:hover{
+			opacity: 30%;
+
+		}
+		.CUimage{
+			position: relative;
+		}
+
+		.darktext{
+			position: relative;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		a.darktext{
+			color: black;
+			position: absolute;
+			bottom: 50;
+			left: 0;
+		}
+	
+		.visualfeed{
+			font-family: "museo-sans-rounded", sans-serif;
+			font-weight: 700;
+			font-style: normal;
+			display: flex;
+			margin-left: 100px;
+		}
+
+		.workbutton{
+			margin-bottom: 100px;
+			display: flex;
+			margin-left: 500px;
+			margin-bottom: 0px;
+		}
+
+		.workbutton :hover{
+			transform: scale(1.1);
+			transition: .3s;
+		}
+
+		.feedphotos{
+			margin-left: 70px;
+			margin-bottom: 30px;
+		}
+
+		.footer{
+			display: flex;
+			align-items: center;
+		}
+
+		.visualfeedbutton{
+			margin-bottom: 150px;
+			display: flex;
+			margin-left: 500px;
+		}
+
+		.visualfeedbutton :hover{
+			transform: scale(1.1);
+			transition: .3s;
+		}
+		.content ul{
+		list-style: none;
+		font-family: "museo-sans-rounded", sans-serif;
+		font-weight: 500;
+		font-style: normal;
+		display:flex;
+		flex-direction: row;
+		margin-left: 460px;
+		}
+
+		.content ul img{
+			margin-left: 450px;
+			display: flex;
+			justify-content: center;
+		}
+
+		.content{
+		background-color: #9BB2AF;
+		bottom: 0;
+		width: 100%;
+		height: 90px;
+		position:fixed;
+		}
+
+		.content a{
+		text-decoration: none;
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 30px;
+		align-items: center;
+		}
+
+		.content a:hover{
+		color: white;
+		}
+
+		.content li{
+		margin: 20px;
+		display: flex;
+		align-content: center;
+		}
+		
+		header.modify .navdiv .logo img{
+			/*tranition:all 500s ease-in-out;*/
+		}
+
+		header.modify .navdiv{
+			background-color: #9bb2afb8;
+			z-index: 1000;
+			
+		}
