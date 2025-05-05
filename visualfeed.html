@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf8"/>
+		<title>Visual Feed</title>
+		<link rel="stylesheet" href="visualfeedstyle.css">
+		<link rel="stylesheet" href="https://use.typekit.net/heo0shb.css">
+        <body style="background-color:white; font-family:courier; text-align:center; font-size:20px;">
+	</head>
+<body>
+    <section id="top"></section>
+    <header>
+		<div class="navdiv">
+			<div class="logo">
+				<a href="home.html"> <img src="images/logo2.png"/></a>
+			</div>
+			<div>
+				<ul>
+					<li><a href="work.html">work</a></li>
+					<li><a href="visualfeed.html">visual feed</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+ 
+	<div class="headings">
+		<div class="visualfeed">
+			<p id="title">visual feed</p>
+			<p id="subtext">projects created for fun, or projects less refined</p>
+		</div>
+	</div>
+
+    <div class="container">
+        <div class="imgcontainer">
+            <div class="image"><img src="images/sticky.png"></div>
+            <div class="image"><img src="images/window.jpg"></div>
+            <div class="image"><img src="images/copia.jpg"></div>
+            <div class="image"><img src="images/car.jpg"></div>
+        </div>
+        <div class="imgcontainer2">
+            <div class="image"><img src="images/lifeline.jpg"></div>
+            <div class="image"><img src="images/courage.jpg"></div>
+            <div class="image"><img src="images/east.jpg"></div>
+            <div class="image"><img src="images/fortitude.jpg"></div>
+        </div>
+        <div class="popup">
+            <span> &times;</span>
+            <img src="slide/image1.jpg">
+        </div>
+
+
+        <div class="content">
+            <div class="footer">
+                <ul>
+                    <li>
+                    <a href="http://www.linkedin.com">linkedin</a>
+                    <a href="mailto:aej7@illinois.edu">email</a>
+                    </li>
+                    <a href="#top"><img src="images/up-smaller.png"></a><br />
+                </ul>	
+            </div> 
+        </div>
+
+    <script>
+		document.querySelectorAll('.imgcontainer img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.popup').style.display = 'block';
+                document.querySelector('.popup img').src = image.getAttribute('src')
+            }
+        });
+
+        document.querySelector('.popup span').onclick = () =>{
+            document.querySelector('.popup').style.display = 'none';
+        }
+	</script> 
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header")
+            header.classList.toggle("modify",window.scrollY>0);
+        }
+        )
+    </script>
+</body>
+</html>

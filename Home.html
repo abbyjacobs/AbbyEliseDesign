@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf8"/>
+		<title>Abby Elise Design</title>
+		<link rel="stylesheet" href="homestyle.css">
+		<link rel="stylesheet" href="https://use.typekit.net/heo0shb.css">
+		<body style="background-color:white; font-family:courier; text-align:center; font-size:20px;">
+	</head>
+
+<body>
+	<section id="top"></section>
+	<header>
+		<div class="navdiv">
+			<div class="logo">
+				<a href="home.html"> <img src="images/logo2.png"/></a>
+			</div>
+			<div>
+				<ul>
+					<li><a href="work.html">work</a></li>
+					<li><a href="visualfeed.html">visual feed</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<intro>
+		<div class="intro">
+			<img src="images/head2.png"/>
+			<p id="bio">Hello! My name is Abby. I'm a design student studying at the University of Illinois at Urbana-Champaign.
+				I was introduced to the world of graphic design at the beginning of high school and have been immersed ever since.</p>
+			<p id="white"></p>	
+		</div>
+	</intro>
+
+	<text>
+		<div class="headings">
+			<div class="work">
+				<p id="title">work</p>
+				<p id="subtext"> some select projects</p>
+			</div>
+		</div>
+	</text>
+
+	<div class="projects">
+				<div class="introtogd">
+						<a href="introtogd.html"; class="introtogdtext darktext">fundamentals of graphic design</a>
+	
+					<div class="introtogdimage">
+						<a href="introtogd.html";><img src="images/introtogd.jpg"/></a>
+					</div>
+				</div>
+			<div class="sloped">
+					<a href="sloped.html"; class="slopedtext darktext">sloped</a>
+
+				<div class="slopedimage">
+					<a href="sloped.html";><img src="images/sloped.jpg"/></a>
+				</div>
+			</div>
+				<div class="CU">
+						<a href="CUsecondhand.html"; class="CUtext darktext">CUsecondhand</a>
+					
+					<div class="CUimage">
+						<a href="CUsecondhand.html";><img src="images/CUsecondhand.gif"/></a>
+					</div>
+				</div>
+	</div>
+
+	<div class="workbutton">
+		<p><a href="work.html"><img src="images/workbutton.png"></a></p>
+	</div>
+
+	<div class="visualfeed">
+		<p id="title">visual feed</p>
+		<p id="subtext">projects from over the years created for fun</p>
+	</div>
+
+	<div class="feedphotos">
+			<img src="images/visualfeedphotos.jpg">
+	</div>
+
+	<div class="visualfeedbutton">
+		<a href="visualfeed.html"><img src="images/visualfeedbutton-copy.png"></a>
+	</div>
+
+	<div class="content">
+		<div class="footer">
+			<ul>
+				<li>
+				<a href="http://www.linkedin.com">linkedin</a>
+				<a href="mailto:aej7@illinois.edu">email</a>
+				</li>
+				<a href="#top"><img src="images/up-smaller.png"></a><br />
+			</ul>	
+		</div> 
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("header")
+			header.classList.toggle("modify",window.scrollY>0);
+		}
+		)
+	</script>
+
+</body>
+</html>

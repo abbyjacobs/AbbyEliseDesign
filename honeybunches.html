@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Bunches of Oats</title>
+    <link rel="stylesheet" href="honeystyle.css"/>
+	<link rel="stylesheet" href="https://use.typekit.net/heo0shb.css">
+</head>
+
+<body>
+    <section id="top"></section>
+    <header>
+		<div class="navdiv">
+			<div class="logo">
+				<a href="home.html"> <img src="images/logo2.png"/></a>
+			</div>
+			<div>
+				<ul>
+					<li><a href="work.html">work</a></li>
+					<li><a href="visualfeed.html">visual feed</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+<div class="text">
+	<p id="title">Honey Bunches of Oats</p>
+	<p id="subtext">
+        <span style="font-style: italic;" > Honey Bunches of Oats: Family Game Night</span>
+        edition is a rebrand of the original Honey Bunches of Oats cereal. The edition features the same 
+        classic cereal, with a interactive box. The project focuses on how to utlilze the cereal box 
+        as a board game intended for young families to play together. 
+    </p>
+</div>
+
+<div class="firstimage">
+    <div class="img1">
+        <div class="image"><img src="Honeyimages/mockup-white.png"></div>
+    </div>  
+</div>
+<div class="textbody">
+	<p id="title">Research</p>
+	<p id="subtext">
+        The reasearch for this prject consisted of diving into the Honey Bunches of Oats brand history and identityt.
+        Establishing what the current brand does was esstential to mantaining cohesion wihtin the edition. 
+        The brand centers on family, fun, and inclusivity. The vibrant colors and consistency of the box designs reflect these ideals.
+        Below are boxes that shaped the final edition, ranging from 1989 to today.
+    </p>
+</div>
+<div class="container1">
+        <div class="slider-box1">
+            <div class="slider1">
+                <img id="slide-1" src="Honeyimages/1989.webp"/>
+                <img id="slide-2" src="Honeyimages/1990.jpg"/>
+                <img id="slide-3" src="Honeyimages/today.webp"/>
+            </div>
+        </div>
+</div>
+
+
+
+<div class="textbody">
+	<p id="title">Design Elements</p>
+	<p id="subtext">
+        The final edition consists of a redesigned dieleine and character stickers for within the box.
+        The color palette draws on the theme of nighttime, while keeping the roginal brand colors.
+        The central logo on the front acts as a spinner, complete with tasks to win the game.
+    </p>
+</div>
+
+<div class="container">
+    <div class="slider-box">
+        <div class="slider">
+            <img id="slide-1" src="Honeyimages/colors.png"/>
+            <img id="slide-2" src="Honeyimages/typefaces.png"/>
+        </div>
+    </div>
+
+    <div class="textbody">
+        <p id="title">Final Edition</p>
+        <p id="subtext">
+            The final edition consists of a redesigned dieleine and character stickers for within the box.
+            The color palette draws on the theme of nighttime, while keeping the roginal brand colors.
+            The central logo on the front acts as a spinner, complete with tasks to win the game.
+        </p>
+    </div>
+
+    <div class="containerfinal">
+        <div class="imgcontainer">
+            <div class="image"><img src="Honeyimages/characters-smallest.png"></div>
+            <div class="image"><img src="Honeyimages/dieline-rectangle-smaller.jpg"></div>
+            <div class="image"><img src="Honeyimages/front-smaller.jpg"></div>
+            <div class="image"><img src="Honeyimages/mockup-flat-smaller.jpg"></div>
+        </div>
+        <div class="popup">
+            <span> &times;</span>
+            <img src="slide/image1.jpg">
+        </div>
+</body>
+
+</div>
+    <script>
+        document.querySelectorAll('.imgcontainer img').forEach(image =>{
+            image.onclick = () =>{
+                document.querySelector('.popup').style.display = 'block';
+                document.querySelector('.popup img').src = image.getAttribute('src')
+            }
+        });
+
+        document.querySelector('.popup span').onclick = () =>{
+            document.querySelector('.popup').style.display = 'none';
+        }
+    </script>
+</div>
+
+<div class="content">
+    <div class="footer">
+        <ul>
+            <li>
+            <a href="http://www.linkedin.com">linkedin</a>
+            <a href="mailto:aej7@illinois.edu">email</a>
+            </li>
+            <a href="#top"><img src="images/up-smaller.png"></a><br />
+        </ul>	
+    </div> 
+</div>
+</body>
+</html>
